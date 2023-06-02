@@ -7,7 +7,6 @@ public class CameraController : MonoBehaviour
 {
     [SerializeField] CinemachineVirtualCamera[] m_blendCameras;
 
-
     #region Private Variables
     CinemachineVirtualCamera m_currentCamera;
     int m_currentPriorityCam = 0;
