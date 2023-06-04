@@ -102,6 +102,21 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: mVerandahFloor
+    second: {fileID: 2100000, guid: bf8fbb467a7432a40854e10eb8123eaa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mVerandahPillar
+    second: {fileID: 2100000, guid: cba5ffaae958b2447aa2ff49ddbb0cb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mVerandahRail
+    second: {fileID: 2100000, guid: 3f8ae49a86d1bdb4f9d26bd2b9370ced, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: mWallShell
     second: {fileID: 2100000, guid: 43e87e53a51c10b498d5ad339288ce7c, type: 2}
   - first:
@@ -173,10 +188,10 @@ ModelImporter:
     secondaryUVAngleDistortion: 1
     secondaryUVAreaDistortion: 1
     secondaryUVHardAngle: 88
-    secondaryUVMarginMethod: 1
+    secondaryUVMarginMethod: 0
     secondaryUVMinLightmapResolution: 40
     secondaryUVMinObjectScale: 1
-    secondaryUVPackMargin: 4
+    secondaryUVPackMargin: 10
     useFileScale: 1
     strictVertexDataChecks: 0
   tangentSpace:
