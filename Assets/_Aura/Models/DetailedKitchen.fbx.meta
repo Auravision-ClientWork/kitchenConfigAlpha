@@ -32,8 +32,23 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: mCabinetGlass.001
+    second: {fileID: 2100000, guid: b1518146a1ec310409e6c9fd87558dcf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: mCabinetWood
     second: {fileID: 2100000, guid: a1a869db99a937646a89cc8146028651, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mCabinetWood.001
+    second: {fileID: 2100000, guid: e0dfcba3cdf54ca42b4903ebc143b101, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mCabinetWood.002
+    second: {fileID: 2100000, guid: 08e1696f7d9e0934d9795865ccc8251e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -62,6 +77,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: mEmptyShelfWoodRail
+    second: {fileID: 2100000, guid: 6fb94fc3db95142469f2289ef5ee3f28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: mFridge
     second: {fileID: 2100000, guid: 50e3f54d29f3aaf44a9daef039c9a732, type: 2}
   - first:
@@ -69,6 +89,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: mKitchenFloor
     second: {fileID: 2100000, guid: 458b7eb053e507e4aa955624bc811e0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mKitchenFloorTrim
+    second: {fileID: 2100000, guid: 4f4d73f0962581c449e847cd89b15bf0, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -87,6 +112,16 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: mPerimeterWall
+    second: {fileID: 2100000, guid: b8e657930393eb24e9c84a4792b05a98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mRegularKitchen
+    second: {fileID: 2100000, guid: a1abf0707ee7ac14dade70a0ae32ab52, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: mShelfHandle
     second: {fileID: 2100000, guid: d7afc9adbeea64a4da601faf806fdceb, type: 2}
   - first:
@@ -94,6 +129,16 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: mShelfHandle_1
     second: {fileID: 2100000, guid: fa9464eeca7d91646805303a43927b4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mShelfHandle_1.001
+    second: {fileID: 2100000, guid: 4db12e9a119b56b4583d0ce45e941114, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mShelfHandle_1.002
+    second: {fileID: 2100000, guid: ca86c5481f36d034bbebb9241a8cef05, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -119,6 +164,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: mWallShell
     second: {fileID: 2100000, guid: 43e87e53a51c10b498d5ad339288ce7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mWallTilesSinkSide
+    second: {fileID: 2100000, guid: 3956d53cb39e45a43a170d62c1da4024, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule

@@ -11,7 +11,7 @@ public class CameraController : MonoBehaviour
     CinemachineVirtualCamera m_currentCamera;
     int m_currentPriorityCam = 0;
     private Vector2 m_startTouchPos;
-    private Vector2 m_endTouchPos; 
+    private Vector2 m_endTouchPos;
     #endregion
 
     #region Unity Callbacks
@@ -38,12 +38,17 @@ public class CameraController : MonoBehaviour
 
                 if (m_endTouchPos.x - m_startTouchPos.x > 0)
                 {
-                    CylcleCameras();
+                    CylcleCameras(0);
+                }
+                else if(m_endTouchPos.x - m_startTouchPos.x < 0)
+                {
+                    CylcleCameras(1);
+
                 }
             }
         }
 
-    } 
+    }
     #endregion
 
     #region Utility Methods
@@ -63,13 +68,27 @@ public class CameraController : MonoBehaviour
         }
     }
 
-    private void CylcleCameras()
+    private void CylcleCameras(int nextOrBack)
     {
-        m_currentPriorityCam++;
-        if (m_currentPriorityCam >= m_blendCameras.Length)
+        switch (nextOrBack)
         {
-            m_currentPriorityCam = 0;
+            case 0:
+                m_currentPriorityCam++;
+                if (m_currentPriorityCam >= m_blendCameras.Length)
+                {
+                    m_currentPriorityCam = 0;
+                }
+                break;
+            case 1:
+                m_currentPriorityCam--;
+                if (m_currentPriorityCam <= 0)
+                {
+                    m_currentPriorityCam = m_blendCameras.Length -1;
+                }
+                break;
         }
+
+
         m_currentCamera = m_blendCameras[m_currentPriorityCam];
 
         foreach (var cam in m_blendCameras)
@@ -80,6 +99,6 @@ public class CameraController : MonoBehaviour
             }
         }
         m_currentCamera.Priority = m_blendCameras.Length + 1;
-    } 
+    }
     #endregion
 }

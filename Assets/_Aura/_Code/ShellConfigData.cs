@@ -18,6 +18,8 @@ public class ShellConfigData : MonoBehaviour
 
     public void SwitchCabMaterial(int _matIndex)
     {
+        FindObjectOfType<AudioManager>().PlayMatButtonFx();
+
         foreach (var cab in cabinets)
         {
             cab.material = cabinetMaterials[_matIndex];
